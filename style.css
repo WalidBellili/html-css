@@ -3,32 +3,35 @@
   src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 body {
+  position: relative;
   width: 100%;
   background: whitesmoke;
   display: flex;
   justify-content: space-between;
-
   font-family: "font-1", sans-serif;
   font-size: 0.9rem;
+  letter-spacing: 1.3px;
 }
 aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(186, 181, 181);
+  background: rgba(186, 181, 181, 0.1);
   height: 100vh;
-  width: 400px;
+  width: 450px;
 }
 main {
-  width: 600px;
+  width: 700px;
   background: whitesmoke;
+  border-left: 2px solid;
 }
 img {
   border-radius: 150px;
   border: 2px solid white;
   margin-left: 10px;
 }
+
 .about {
   margin-top: 5px;
   width: 300px;
@@ -43,6 +46,7 @@ li,
 p {
   padding: 5px;
 }
+
 .network {
   width: 300px;
 }
@@ -52,4 +56,13 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.shapes {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  height: 70px;
+  width: 90px;
+  background: url(./assets/img/js.png) center/cover;
+  clip-path: polygon(-65% -15%, 76% 199%, 128% 60%);
 }
