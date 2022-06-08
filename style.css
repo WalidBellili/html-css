@@ -57,29 +57,31 @@ p {
   justify-content: center;
   text-align: center;
 }
-
-.Jshape {
+.jshape {
   position: absolute;
   top: 10px;
-  left: 40px;
-  height: 70px;
-  width: 90px;
-  background: url(./assets/img/js.png) center/cover;
-  clip-path: polygon(-65% -15%, 76% 199%, 128% 60%);
+  left: 50px;
+  border-radius: 50px;
 }
 .html {
   position: absolute;
-  top: 90px;
-  left: 10px;
-  height: 90px;
-  width: 80px;
-  background: url(./assets/img/html5.png) center/cover;
 }
 .css {
   position: absolute;
-  top: 90px;
-  left: 320px;
-  height: 80px;
-  width: 80px;
-  background: url(./assets/img/css3.png) center/cover;
+}
+.react {
+  position: absolute;
+  top: 50px;
+  left: 310px;
+  clip-path: polygon(
+    50% 0%,
+    83% 12%,
+    100% 43%,
+    94% 78%,
+    68% 100%,
+    32% 100%,
+    6% 78%,
+    0% 43%,
+    17% 12%
+  );
 }
