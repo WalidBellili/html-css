@@ -3,7 +3,6 @@
   src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 body {
-  position: relative;
   width: 100%;
   background: whitesmoke;
   display: flex;
@@ -11,6 +10,7 @@ body {
   font-family: "font-1", sans-serif;
   font-size: 0.9rem;
   letter-spacing: 1.3px;
+  position: relative;
 }
 aside {
   display: flex;
@@ -57,12 +57,29 @@ p {
   justify-content: center;
   text-align: center;
 }
-.shapes {
+
+.Jshape {
   position: absolute;
-  top: 20px;
+  top: 10px;
   left: 40px;
   height: 70px;
   width: 90px;
   background: url(./assets/img/js.png) center/cover;
   clip-path: polygon(-65% -15%, 76% 199%, 128% 60%);
+}
+.html {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  height: 90px;
+  width: 80px;
+  background: url(./assets/img/html5.png) center/cover;
+}
+.css {
+  position: absolute;
+  top: 90px;
+  left: 320px;
+  height: 80px;
+  width: 80px;
+  background: url(./assets/img/css3.png) center/cover;
 }
