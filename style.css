@@ -71,17 +71,21 @@ p {
 }
 .react {
   position: absolute;
-  top: 50px;
-  left: 310px;
-  clip-path: polygon(
-    50% 0%,
-    83% 12%,
-    100% 43%,
-    94% 78%,
-    68% 100%,
-    32% 100%,
-    6% 78%,
-    0% 43%,
-    17% 12%
-  );
+  top: 70px;
+  left: 320px;
+}
+.mongodb {
+  position: absolute;
+  top: 0px;
+  left: 330px;
+}
+.nodejs {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+}
+.expressjs {
+  position: absolute;
+  top: 130px;
+  left: 330px;
 }
