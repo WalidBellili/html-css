@@ -12,6 +12,7 @@ body {
   letter-spacing: 1.3px;
   position: relative;
 }
+
 aside {
   display: flex;
   flex-direction: column;
@@ -65,9 +66,14 @@ p {
 }
 .html {
   position: absolute;
+  top: 190px;
+  left: 370px;
 }
 .css {
   position: absolute;
+  z-index: -54;
+  top: 140px;
+  left: 15px;
 }
 .react {
   position: absolute;
